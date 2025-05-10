@@ -5,5 +5,12 @@ async function github(){
 
 async function spotify(){
      window.location.href = 'https://spotify-activity-api.onrender.com/login'
-     document.getElementById('loginSuccess').textContent="Successfully login with spotify"
+
 }
+
+window.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('loggedIn') === 'success') {
+    document.getElementById('loginSuccess').textContent = "Successfully logged in with Spotify";
+  }
+});
