@@ -3,3 +3,7 @@ async function github(){
 }
 
 
+async function spotify(){
+     window.location.href = 'https://spotify-activity-api.onrender.com/login'
+     document.getElementById('loginSuccess').textContent="Successfully login with spotify"
+}
