@@ -14,3 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
     document.getElementById('loginSuccess').textContent = "Successfully logged in with Spotify";
   }
 });
+
+async function topTrack(){
+   window.location.href = 'https://spotify-activity-api.onrender.com/toptrack'
+}
