@@ -20,6 +20,18 @@ async function topTrack(){
 }
 
 async function playTrack(){
+   window.location.href = 'https://spotify-activity-api.onrender.com/playanytrack'
+}
+
+async function pauseTrack(){
+   window.location.href = 'https://spotify-activity-api.onrender.com/stop'
+}
+
+async function currentTrack(){
+   window.location.href = 'https://spotify-activity-api.onrender.com/current-track'
+}
+
+async function play(){
    window.location.href = 'https://spotify-activity-api.onrender.com/play'
 }
 
