@@ -18,3 +18,8 @@ window.addEventListener('DOMContentLoaded', () => {
 async function topTrack(){
    window.location.href = 'https://spotify-activity-api.onrender.com/toptrack'
 }
+
+async function playTrack(){
+   window.location.href = 'https://spotify-activity-api.onrender.com/play'
+}
+
