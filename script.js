@@ -10,7 +10,7 @@ async function spotify(){
 
 window.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(window.location.search);
-  if (params.get('loggedIn') === 'success') {
+  if (params.get('login') === 'success') {
     document.getElementById('loginSuccess').textContent = "Successfully logged in with Spotify";
   }
 });
